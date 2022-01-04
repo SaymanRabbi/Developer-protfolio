@@ -40,6 +40,7 @@ h1{
 }
 .right-header{
     width: 50%;
+    padding-top: 5rem;
 }
 .right-header img{
     width: 85%;
@@ -117,21 +118,31 @@ h1{
 display: flex;
 width: 100%;
 height: 40rem;
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
  }
  .Dream-big-left{
-  width: 60%;
-  padding-left: 9rem; 
+  width: 50%;
+  padding-right: 9rem; 
+ 
  
  
  }
- .Dream-big img{
+ .Dream-big-left img{
         width: 80%;
         background-size: cover;
+        float: right;
        
  }
  .Dream-big-right{
-     width: 40%;
+     width: 50%;
      padding-top: 3rem;
+     background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+   
+
  }
  .Dream-big-right h1{
      height: 12rem;
@@ -141,3 +152,13 @@ height: 40rem;
    font-weight: 700;
    height: 5rem;
  }
+ .Download-resume{
+    width: 18rem;
+    height: 4.5rem;
+    background: linear-gradient(
+        45deg, lightsalmon, tomato);
+        border: none;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+}
